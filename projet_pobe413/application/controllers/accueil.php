@@ -19,12 +19,9 @@ class Accueil extends CI_Controller {
 	 */
 	public function index()
 	{
-		
 		$this->load->view("header");
-		$this->load->view("template/navigateur");
-		$this->load->view("accueil");
+		$this->load->view('accueil');
 		$this->load->view("footer");
-
 	}
 }
 

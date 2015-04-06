@@ -5,8 +5,7 @@ margin-bottom: 10px;
 border-radius: 5px 5px 5px 5px;
 line-height: 80px;
 text-align: center;
-}
-[class="span10"] {
+}[
+class="span10"] {
 background-color: green;
 }
-.form-group.
