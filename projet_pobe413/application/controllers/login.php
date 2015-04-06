@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Accueil extends CI_Controller {
+class Login extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,10 +19,10 @@ class Accueil extends CI_Controller {
 	 */
 	public function index()
 	{
-		
+		$titre_page = "login";
+		$this->load->view('template/navigateur');
 		$this->load->view("header");
-		$this->load->view("template/navigateur");
-		$this->load->view("accueil");
+		$this->load->view('template/login');
 		$this->load->view("footer");
 
 	}
