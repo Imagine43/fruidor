@@ -16,8 +16,11 @@
         <title><?=$titre_page;?></title>
        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/tuto1.css">
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
         
 </head>
 
-<body style="background:#eee;">
+<body style="background:#eee;" class="span12">
 
