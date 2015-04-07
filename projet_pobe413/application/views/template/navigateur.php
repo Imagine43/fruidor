@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Qui sommes-nous ?  </a></li>
-        <li><a href="#">Nos activités</a></li>
+        <li><a href="accueil">Nos activités</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Downloads<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -23,7 +23,7 @@
             <li><a href="#">Sofware</a></li>
             <li><a href="#">About</a></li>
             <li class="divider"></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact">Contact</a></li>
             <li class="divider"></li>
             
           </ul>
@@ -40,8 +40,8 @@
         <li class="dropdown">
           <a href="accueil" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class = "glyphicon glyphicon-cog"></span> <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="login">Profile</a></li>
-            <li><a href="profil">Login</a></li>
+            <li><a href="profil">Profil</a></li>
+            <li><a href="login">Login</a></li>
             <li><a href="mentionLeg">Mentions légales</a></li>
 
             <li class="divider"></li>

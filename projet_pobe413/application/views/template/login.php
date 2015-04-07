@@ -21,14 +21,14 @@
 									    	<label for="exampleInputEmail1">Email or Login</label>
 									   		<div class="input-group">
 										  		<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-										 		<input type="email" value="login" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+										 		<input type="email" name="username" value="login" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
 											</div>
 										</div>
 										<div class="form-group">
 									    	<label for="exampleInputPassword1">Password</label>
 									    	<div class="input-group">
 									    		<span class="input-group-addon"><span class="glyphicon glyphicon-star"></span></span>
-									   			<input type="password" value="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+									   			<input type="password" name="password" value="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
 											</div>
 										</div>
 										<hr/>

@@ -19,11 +19,14 @@ class Login extends CI_Controller {
 	 */
 	public function index()
 	{
-		$titre_page = "login";
-		$this->load->view('template/navigateur');
-		$this->load->view("header");
-		$this->load->view('template/login');
-		$this->load->view("footer");
+		
+			
+			$titre_page = "login";
+			$this->load->view('template/navigateur');
+			$this->load->view("header");
+			$this->load->view('template/login');
+			$this->load->view("footer");
+		
 
 	}
 }
