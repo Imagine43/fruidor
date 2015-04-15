@@ -1,7 +1,8 @@
 <br/>
-<div class="row">
-	<div id="footer"> 
-			<a href="#" class="span3"> Mentions Légales </a><span class="span1"> | </span><a href="#" class="span3"> Plan du Site </a><span class="span1"> | </span><a href="#" class="span3"> Contact </a>
+<div class="row ">
+	<div class="span10" ></div>
+	<div class="span12"> 
+			<a href="#"> Mentions Légales </a> |<a href="#" > Plan du Site </a>|<a href="#"> Contact </a>
 	</div>	
 </div>
 
