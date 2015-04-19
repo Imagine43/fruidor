@@ -1,11 +1,23 @@
+html, body
+{
+	height :100%;
+}
 #footer
 {
 	background-color: #101010;
 	text-align : center;
+	margin-left : 0px;
 }
 .corps
 {
   position: relative; /* on positionne le conteneur */
-  margin-left: auto;
+  left : 17%;
   margin-right: auto;
+}
+.news
+{
+	border : 1px solid black;
+	width : 100%;
+	height :auto;
+	z-index: 10;
 }
