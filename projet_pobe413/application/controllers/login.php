@@ -28,12 +28,15 @@ class login extends CI_Controller
 
           if ($this->form_validation->run() == FALSE)
           {
-               //validation échoue
-               $this->load->view('template/login_view');
+               
+               $this->load->view('header');
+               $this->load->view('template/navigateur');
+               $this->load->view('template/login');
+               $this->load->view('footer');
           }
           else
           {
-               //validation réussit
+              
                if ($this->input->post('btn_login') == "Login")
                {
                     // vérifier si le nom d'utilisateur et mot de passe est correct 
@@ -46,7 +49,7 @@ class login extends CI_Controller
                               'loginuser' => TRUE
                          );
                          $this->session->set_userdata($sessiondata);
-                         redirect("index");
+                         redirect("accueil");
                     }
                     else
                     {

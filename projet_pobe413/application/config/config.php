@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/projet_pobe413(1)/projet_pobe413/';
+$config['base_url']	= 'http://localhost/projet_pobe413/';
 
 /*
 |--------------------------------------------------------------------------
