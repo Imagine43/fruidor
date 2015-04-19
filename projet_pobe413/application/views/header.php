@@ -22,5 +22,6 @@
         
 </head>
 
-<body style="background:#eee;" class="span12">
+<body style="background:#eee;" >
+<div class="container span12">
 

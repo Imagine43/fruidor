@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Profil extends CI_Controller {
+class login_model extends CI_Model {
 
 	/**
 	 * Index Page for this controller.
@@ -17,16 +17,22 @@ class Profil extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
-	{
-		$this->load->view("header");
-		$this->load->view("template/navigateur");
-		$this->load->view("backoffice/template/nav");
-		$this->load->view("backoffice/profil");
-
-		$this->load->view("footer");
+	
+	public function __construct() 	
+	{	
+		// Appel le constructeur du modèle 
+		parent::__construct();;
+	
 	}
-}
 
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+		 // Obtenir le nom d'utilisateur et mot de passe de tbl_usrs 
+     function get_user($usr, $pwd)
+     {
+          $sql= "	select * 
+          			from tbl_usrs 
+          			where var_username = " . $usr . " and var_password = " . md5($pwd) . " and var_status = 'active'";
+          $query = $this->db->query($sql);
+          return $query->num_rows();
+     }
+}
+?>
