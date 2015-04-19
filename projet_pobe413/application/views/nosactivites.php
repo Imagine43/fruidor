@@ -11,7 +11,7 @@
 
 			<div class="featured-image full">
 					
-				<h2>Nos Activités</h2>
+				<h3>Nos Activités</h3>
 					
 					<h4>Fruidor Bananes: la maitrise d’une filière</h4>
 
