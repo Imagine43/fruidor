@@ -13,25 +13,22 @@
 			
 					<h2>Formulaire de Contact</h2>
 
-						<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-							<div>
-								<label for="name">Nom</label>
-								<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-							</div>
-							<div>
-								<label for="name">Prénom</label>
-								<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-							</div>
-							<div>
-								<label for="email">email:</label>
-								<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-							</div>
-							<div>
-								<label for="message">Message:</label>
-								<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-							</div>
-							<input id="submit_button" type="submit" value="Send email" />
-						</form>						
+						<?php 
+ 						echo form_open('form/valid_form');
+ 
+						$nom= array('name'=>'nom','id'=>'nom','placeholder'=>'Nom','value'=>set_value('nom'));
+							echo form_input($nom);
+						
+						$prenom= array('name'=>'prenom','id'=>'prenom','placeholder'=>'Prenom','value'=>set_value('prenom'));
+							echo form_input($prenom);
+						    
+						$mail= array('name'=>'mail','id'=>'mail','placeholder'=>'Email','value'=>set_value('mail'));
+						    echo form_input($mail);
+						    
+						echo form_submit('envoi', 'Valider');
+						 
+						echo form_close();
+						?>			
 			</div>
 			
 	</div>

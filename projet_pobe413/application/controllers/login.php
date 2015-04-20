@@ -18,6 +18,10 @@ class login extends CI_Controller
 
      public function index()
      {
+          // affichage template
+          $this->load->view("header");
+          $this->load->view("template/navigateur");
+
           //get valeur
           $username = $this->input->post("txt_username");
           $password = $this->input->post("txt_password");
@@ -28,15 +32,12 @@ class login extends CI_Controller
 
           if ($this->form_validation->run() == FALSE)
           {
-               
-               $this->load->view('header');
-               $this->load->view('template/navigateur');
-               $this->load->view('template/login');
-               $this->load->view('footer');
+               //validation échoue
+               $this->load->view('template/login_view');
           }
           else
           {
-              
+               //validation réussit
                if ($this->input->post('btn_login') == "Login")
                {
                     // vérifier si le nom d'utilisateur et mot de passe est correct 
@@ -49,7 +50,7 @@ class login extends CI_Controller
                               'loginuser' => TRUE
                          );
                          $this->session->set_userdata($sessiondata);
-                         redirect("accueil");
+                         redirect("index");
                     }
                     else
                     {
@@ -62,5 +63,6 @@ class login extends CI_Controller
                     redirect('login/index');
                }
           }
+           $this->load->view("footer");
      }
 }?>

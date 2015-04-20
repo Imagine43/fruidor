@@ -7,7 +7,7 @@
 		
 			<div>	
 				
-				<h1 class="title">FruitDor</h1>
+				<h1 class="title">FruiDor</h1>
 
 			<div class="featured-image full">
 					

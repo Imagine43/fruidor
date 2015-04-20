@@ -10,19 +10,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand active" href="#">FruitDor</a>
+      <a class="navbar-brand" href="#">FruiDor</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active" ><a href="accueil">Description <span class="sr-only"></span></a></li>
+        <li class="active"><a href="accueil">Description <span class="sr-only"></span></a></li>
         <li><a href="#">Nos activités</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" data-delay="0" data-close-others="false" role="button" aria-expanded="false">Nos activités <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="qualite">Qualité</a></li>
-            <li><a href="implantations">Nos Implantations</a></li>
+            <li><a href="#">Qualité</a></li>
+            <li><a href="#">Nos Implentations</a></li>
             <li><a href="#">Documentation</a></li>
             <li class="divider"></li>
             <li><a href="#">One more separated link</a></li>
