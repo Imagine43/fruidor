@@ -27,6 +27,7 @@
             <li class="divider"></li>
             <li><a href="#">One more separated link</a></li>
           </ul>
+        <li><a href="#">Contact</a></li>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
