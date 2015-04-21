@@ -15,7 +15,13 @@
 |
 */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+$config['base_url']	= 'http://localhost/projet_pobe413/';
+=======
+>>>>>>> parent of 874749b... contact
 $config['base_url']	= 'http://localhost/projet_pobe413';
+>>>>>>> origin/master
 
 =======
 $config['base_url']	= 'http://localhost/projet_pobe413/';
