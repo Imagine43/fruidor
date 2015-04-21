@@ -15,7 +15,7 @@
 					
 					<h4>Fruidor Bananes: la maitrise d’une filière</h4>
 
-					<img src="../assets/img/fruidor.jpg">
+					<img src="assets/img/fruidor.jpg">
 
 					<p>
 							Leader sur le marché français, Fruidor est le premier réseau français de mûrisseries avec 
