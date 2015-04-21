@@ -25,7 +25,7 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="qualite">Qualité</a></li>
             <li><a href="implantations">Nos Implentations</a></li>
-            <li><a href="#">Documentation</a></li>
+            <li><a href="documentation">Documentation</a></li>
             <li class="divider"></li>
           </ul>
         <li><a href="contact">Contact</a></li>
@@ -42,7 +42,7 @@
           <ul class="dropdown-menu span2" role="menu">
             <li><a href="profil">Profil</a></li>
             <li><a href="login">Login</a></li>
-            <li><a href="administration">Administration</a></li>
+            <li><a href="admin">Administration</a></li>
             <li class="divider"></li>
             <li><a href="#">Déconnexion</a></li>
           </ul>

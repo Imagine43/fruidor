@@ -1,27 +1,25 @@
 <div id="container">
 		
-	<div class="container">
-	<div class="col-md-4"></div>	
+	<div class="container">	
 	<div class="row">
 	<div class="col-md-4">
 		
 			<div>	
-				
-				<h1 class="title">FruiDor</h1>
-
-			<div class="featured-image full">
+				<img src="assets/img/fruidor.jpg" alt="Fruidor"/>
+			
 					
-				<h3>Nos Activités</h3>
+				<h1>Nos Activités</h1>
 					
 					<h4>Fruidor Bananes: la maitrise d’une filière</h4>
 
-					<img src="assets/img/fruidor.jpg">
 
 					<p>
 							Leader sur le marché français, Fruidor est le premier réseau français de mûrisseries avec 
 
 						160 000 tonnes de bananes mûries chaque année. 
-					</p></br>
+					</p>
+
+					</br>
 
 					<p>
 							Son savoir-faire dans l’approvisionnement en bananes vertes, ainsi que son expertise dans 
@@ -40,12 +38,8 @@
 					
 					mêmes valeurs : Afrique, Caraïbes, Amérique latine, etc.
 					</p></br>
-
-
 			</div>
-			
 	</div>
 	</div>
 	</div>
-	
 </div>
