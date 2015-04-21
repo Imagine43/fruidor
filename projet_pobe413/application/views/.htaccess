@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 IfModule mod_rewrite.c>
 
 # Empêche la visualisation de l'arborescence, n'a rien à voir avec le masquage du « index.php ».
@@ -26,4 +24,3 @@ index.php.
 RewriteRule ^(.*)$ index.php/$1 [L]
 
 </IfModule>
->>>>>>> origin/master
