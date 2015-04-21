@@ -14,8 +14,12 @@
 | path to your installation.
 |
 */
+<<<<<<< HEAD
 $config['base_url']	= 'http://localhost/projet_pobe413';
 
+=======
+$config['base_url']	= 'http://localhost/projet_pobe413/';
+>>>>>>> origin/master
 /*
 |--------------------------------------------------------------------------
 | Index File
