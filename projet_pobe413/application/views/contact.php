@@ -1,53 +1,32 @@
-
-<div id="container">
 		
-	<div class="container">
-	<div class="col-md-4"></div>	
-	<div class="row">
-	<div class="col-md-4">
-		
-			<div>	
-				
-				<h1 class="title">FruitDor</h1>
+<h1 class="title">FruiDor</h1>
 
-			
-					<h2>Formulaire de Contact</h2>
+<div>
 
-						<?php 
- 						echo form_open('form/valid_form');
- 						echo '<table>';
- 						echo '<tr><th colspan="2"></th></tr>';
- 						echo '<tr>';
- 							echo '<td colspan="2">';
-						$nom= array('name'=>'nom','id'=>'nom','placeholder'=>'Nom','value'=>set_value('nom'));
-							echo form_input($nom);
-							echo '</td>';
-						echo '</tr>';
-						echo '<tr><td></td></tr>';
-						echo '<tr>';
-							echo '<td>';
-						$prenom= array('name'=>'prenom','id'=>'prenom','placeholder'=>'Prenom','value'=>set_value('prenom'));
-							echo form_input($prenom);
-							echo '</td>';
-						echo '</tr>';
-						echo '<tr>';
-							echo '<td>';   
-						$mail= array('name'=>'mail','id'=>'mail','placeholder'=>'Email','value'=>set_value('mail'));
-						    echo form_input($mail);
-							echo '</td>';
-						echo '</tr>';
-						echo '<tr>';
-							echo '<td style="text-align:center;">';
-						echo form_submit('envoi', 'Valider');
-						 	echo '<td>';
-						echo '</tr>';
-						echo form_close();
-						echo '</table>';
-						?>			
-			</div>
-			
+	<h3 align='center' >Formulaire de Contact</h3>
+
+	<div class="account-wall" style='margin-left: 400px'>
+		<?php echo form_open('success'); ?>
+
+		<label for="nom"> Nom :</label>
+		<br><input type="text" name="nom" value="<?php set_value('nom');?>" /></br>
+		<?php echo form_error('nom', '<div class="error">','</div>');?>
+
+		<label for="email"> Votre Email :</label>
+		<br><input type="text" name="email" value="<?php set_value('email');?>" /></br>
+		<?php echo form_error('email', '<div class="error">','</div>');?>
+
+		<label for="demande"> Votre demande :</label>
+		<br><textarea name="demande" ><?php echo set_value('demande');?></textarea></br>
+		<?php echo form_error('demande', '<div class="error">','</div>');?>
+
+
+		<br><input type="submit"  value="Envoyer" /></br>
+
+		<?php form_close();?>
 	</div>
-	</div>
-	</div>
-	
+</div>
+
+
+<form class="form-signin" action="admingranted" method="post">
 </div>
