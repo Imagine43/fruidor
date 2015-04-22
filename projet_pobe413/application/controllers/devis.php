@@ -20,16 +20,16 @@ class Devis extends CI_Controller {
 	
 	public function index()
 	{
-		//chargement de la librairie pour la vérification du form
-		$this->load->library('form_validation')
-		//Chargement du Helper Form
-		$this->load->helper('form')
-		
-
-		$this->load->view("header");
-		$this->load->view("");
-		$this->load->view("");
-		$this->load->view("footer");
+		$this->load->view('header');
+		//chargement de la librairie pour la validation du formulaire
+  			$this->load->library('form_validation');
+  		//chargement du helper form
+  	$this->load->helper('form');
+	$this->load->database('fruitdor');
+	
+	$this->load->view('template/navigateur');
+	$this->load->view('contacts');
+	$this->load->view('footer');
 
 	}
 

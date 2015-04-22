@@ -6,7 +6,7 @@
 				<div class="panel panel-default">
 						<div class="panel-body">
 						<p><br/></p>
-							<form role="form">
+							<form role="form" method="post">
 									<div class="form-group">
 									<div class="page-header">Login</div>
 									   	<label for="pseudo">Email or Login</label>

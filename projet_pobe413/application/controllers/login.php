@@ -10,7 +10,7 @@ class login extends CI_Controller
           $this->load->helper('form');
           $this->load->helper('url');
           $this->load->helper('html');
-          $this->load->database();
+          $this->load->database('fruitdor');
           $this->load->library('form_validation');
           //load model login 
           $this->load->model('login_model');

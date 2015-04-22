@@ -11,6 +11,6 @@ if(isset($_POST['submit'])) {
 	header('location: contact-ty.php');
 
 } else {
-	header('location: contacts.php ');
+	header('location: contacts.php');
 	exit(0);
 ?>
