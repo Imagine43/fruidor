@@ -2,15 +2,13 @@
 		
 	<div class="container">	
 	<div class="row">
-	<div class="span5">
+	<div class="col-md-4">
 		
 			<div>	
-				
+				<img src="assets/img/fruidor.jpg" alt="Fruidor"/>
 			
 					
-				<h1 align="center">Nos Activités</h1>
-
-				<img src="assets/img/fruidor.jpg" alt="Fruidor" style="margin-left: 200px;" />
+				<h1>Nos Activités</h1>
 					
 					<h4>Fruidor Bananes: la maitrise d’une filière</h4>
 

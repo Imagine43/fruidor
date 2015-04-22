@@ -50,7 +50,7 @@ class login extends CI_Controller
                               'loginuser' => TRUE
                          );
                          $this->session->set_userdata($sessiondata);
-                         redirect("login/index");
+                         redirect("index");
                     }
                     else
                     {

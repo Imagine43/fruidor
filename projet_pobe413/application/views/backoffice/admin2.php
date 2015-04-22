@@ -2,15 +2,14 @@
 
 
 <?php
-
 	$idconn = mysqli_connect('localhost','root','');
 	mysqli_select_db($idconn,'fruidor');
 	$usr = $_POST['id'];
 	$pwd = $_POST['password'];
-	$sql = "SELECT count(*) FROM `tbl_usrs` WHERE `var_username` == $usr and `var_password` == $pwd";
+	$sql = "select * from tbl_usrs where 'var_username' like '".$usr."' && 'var_password' like '".$pwd."'";
 	$result = mysqli_query($idconn,$sql);
 	var_dump($result);
-	if ($result>0)
+	if ($result)
 	{	
 		echo '<div class="container span4">
 				<div class="container-fluid col-md-4">	
