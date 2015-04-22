@@ -14,6 +14,8 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Coté gauche de la barre de navigation -->
+
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="accueil">Description <span class="sr-only"></span></a></li>
@@ -23,13 +25,16 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="qualite">Qualité</a></li>
             <li><a href="implantations">Nos Implentations</a></li>
-            <li><a href="#">Documentation</a></li>
+            <li><a href="documentation">Documentation</a></li>
             <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
           </ul>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact">Contact</a></li>
         </li>
       </ul>
+
+      <!-- Coté droit de la barre de navigation -->
+
+
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>
         <li class="dropdown">
@@ -37,6 +42,7 @@
           <ul class="dropdown-menu span2" role="menu">
             <li><a href="profil">Profil</a></li>
             <li><a href="login">Login</a></li>
+            <li><a href="admingranted">Administration</a></li>
             <li class="divider"></li>
             <li><a href="#">Déconnexion</a></li>
           </ul>

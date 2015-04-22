@@ -5,21 +5,26 @@
 	<style type="text/css">
 		.carousel-inner
 		{
-			width: 695px;
-			height: 465px;
+			width: 940px;
+			height: 360px;
 		}
 		.carousel-entier
 		{
 			margin-left: auto;
 			margin-right: auto;
-			width: 695px;
+			width: 940px;
 		}
-
+		.acteur
+		{
+			width: 600px;
+		}
+		.celulle-droite
+		{
+			padding-left:20px;
+		}
 	</style>
 
 			<div class="carousel-entier">	
-				
-				<h1 class="title">FruitDor</h1>
 				
 
 					<div id="my_carousel" class="carousel slide" data-ride="carousel">
@@ -35,20 +40,20 @@
 					<!-- Page 1 -->
 					<div class="item active">  
 					<div class="carousel-page">
-					<img src="assets/img/fruidorbanane.jpg" class="img-responsive" style="margin:0px auto;" />
+					<img src="assets/img/slider1.jpg" class="img-responsive" style="margin:0px auto;" />
 					</div> 
-					<div class="carousel-caption">Nos grosses bananes</div>
+					<div class="carousel-caption">Nos bananes</div>
 					</div>   
 					<!-- Page 2 -->
 					<div class="item"> 
 					<div class="carousel-page">
-					<img src="assets/img/fruidorqualite.jpg" class="img-responsive img-rounded" style="margin:0px auto;"/>
+					<img src="assets/img/slider2.jpg" class="img-responsive img-rounded" style="margin:0px auto;"/>
 					</div>
 					</div>  
 					<!-- Page 3 -->
 					<div class="item">
 					<div class="carousel-page">
-					<img src="assets/img/fruidorterroir.jpg" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"/>
+					<img src="assets/img/slider3.jpg" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"/>
 					</div>  
 					<div class="carousel-caption">Dans de beaux terroirs</div>
 					</div>     
@@ -63,22 +68,71 @@
 					</a>
 
 					</div>
-					<!-- Paragraphes -->
-					<h2 style="text-align:center;">Présentation</h2>
-					<p>
-						Et quia Montius inter dilancinantium manus spiritum efflaturus Epigonum et Eusebium nec professionem nec 
-						dinitatem ostendens aliquotiens increpabat, qui sint hi magna quaerebatur industria, et nequid intepesceret,
-						Epigonus e Lycia philosophus ducitur et Eusebius ab Emissa Pittacas cognomento, concitatus orator, cum 
-						quaestor non hos sed tribunos fabricarum insimulasset promitentes armorum si novas res agitari conperissent.
-						</br>
-						Illud autem non dubitatur quod cum esset aliquando virtutum omnium domicilium Roma, ingenuos advenas 
-						plerique nobilium, ut Homerici bacarum suavitate Lotophagi, humanitatis multiformibus officiis retentabant.
-						</br>
-						</br>
-						Martinus agens illas provincias pro praefectis aerumnas innocentium graviter gemens saepeque obsecrans, ut 
-						ab omni culpa inmunibus parceretur, cum non inpetraret, minabatur se discessurum: ut saltem id metuens 
-						perquisitor malivolus tandem desineret quieti coalitos homines in aperta pericula proiectare.
-					</p>
+
 			</div>
+	</div>
+
+
+	<div class="row">
+		
+						<!-- Paragraphes -->
+		<div>
+			<h2>Le meilleur de nos régions.</h2>
+			<br/>
+			
+			<h4>
+				<i>
+					La sélection des meilleurs producteurs, naturellement !
+				</i>
+			</h4>
+			
+			<p>
+				Leader sur le marché français, Fruidor sélectionne une gamme complète de fruits et légumes conventionnels et Bio auprès des meilleurs producteurs français et étrangers. Ses activités regroupent plusieurs métiers qui s’inscrivent entre production et distribution de détail : importateur, mûrisseur, conditionneur et distributeur/logisticien. Sa clientèle regroupe les principaux acteurs de chaque circuit :
+			</p>
+			<p>
+				<table cellpadding="15">
+					<tr>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<h4>La grande distribution (française et européenne)</h4>
+						</td>
+						
+						<td colspan="2">
+							<h4>Grossistes & RHD (hors domicile)</h4>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="assets/img/hypermarche.png"/></td>
+						<td class="celulle-droite">Présents dans les principaux bassins de production français et européens, Fruidor Terroirs vous propose une large gamme de produits toute l’année.</td>
+						<td ><img src="assets/img/restauration.png"></td>
+						<td class="celulle-droite">Nous privilégions la maitrise de l’amont par notre large couverture nationale ; et la sécurité alimentaire (Certification Globalgap).</td>
+					</tr>
+					<tr>
+						
+						<td colspan="2">
+							<h4>L'export (française et européenne)</h4>
+						</td>
+
+						<td colspan="2">
+							<h4>Les industriels alimentaires</h4>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="assets/img/grossiste.png"/></td>
+						<td class="celulle-droite">Nous garantissons la qualité du produit et la traçabilité (Certification Globalgap).</td>
+						<td ><img src="assets/img/industriels.png"></td>
+						<td class="celulle-droite">Nous nous engageons sur des volumes en adéquation avec vos besoins.</td>
+					</tr>
+				</table>
+
+			</p>
+
+		</div>
+	
 	</div>
 </div>
