@@ -42,7 +42,7 @@
           <ul class="dropdown-menu span2" role="menu">
             <li><a href="profil">Profil</a></li>
             <li><a href="login">Login</a></li>
-            <li><a href="admin">Administration</a></li>
+            <li><a href="admingranted">Administration</a></li>
             <li class="divider"></li>
             <li><a href="#">Déconnexion</a></li>
           </ul>
