@@ -21,7 +21,6 @@ class admingranted extends CI_Controller {
 	{
 		$this->load->view("header");
 		$this->load->view("template/navigateur");
-		$this->load->view("backoffice/template/nav");
 		$this->load->view("backoffice/admin2");
 		$this->load->view("footer");
 	}
