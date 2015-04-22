@@ -6,7 +6,7 @@ class nosactivites extends CI_Controller {
 	
 	$this->load->view('header');
 	$this->load->view("template/navigateur");
-	$this->load->view('activite');
+	$this->load->view('nosactivites');
 	$this->load->view('footer');
 
 	}

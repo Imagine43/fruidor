@@ -37,6 +37,8 @@
 							echo '</td>';
 						echo '</tr>';
 						echo '<tr>';
+
+						
 							echo '<td style="text-align:center;">';
 						echo form_submit('envoi', 'Valider');
 						 	echo '<td>';
