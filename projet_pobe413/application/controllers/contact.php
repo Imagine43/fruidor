@@ -1,6 +1,6 @@
 <?php
 
-class Devis extends CI_Controller {
+class contact extends CI_Controller {
 	
 	function index() {
 	
@@ -11,7 +11,7 @@ class Devis extends CI_Controller {
 	$this->load->database();
 	$this->load->view('header');
 	$this->load->view("template/navigateur");
-	$this->load->view('contact');
+	$this->load->view('contacts');
 	$this->load->view('footer');
 
 	}
