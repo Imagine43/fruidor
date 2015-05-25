@@ -6,8 +6,8 @@
 	mysqli_select_db($idconn,'fruidor');
 	$usr = $_POST['id'];
 	$pwd = $_POST['password'];
-	$sql = "select * from tbl_usrs where 'var_username' like '".$usr."' && 'var_password' like '".$pwd."'";
-	$result = mysqli_query($idconn,$sql);
+	$sql = "SELECT count(*) from tbl_usrs where var_username='".$usr."' AND var_password='".$pwd."'";
+	$result = mysqli_query($idconn,$sql) or die('Erreur SQL ! <br/>'.$sql.'<br/>'.mysql_error());
 	var_dump($result);
 	if ($result)
 	{	
@@ -20,8 +20,8 @@
 				</ul>
 				<ul class="nav  nav-pills nav-tabs nav-stacked">
 			  		<li role="presentation"  class="active"><a href="#">Devis</a></li>
-			  		<li role="presentation"><a href="#">Listes des clients</a></li>
-			  		<li role="presentation"><a href="#">Listes des produits</a></li>
+			  		<li role="presentation"><a href="gestioncli">Liste des clients</a></li>
+			  		<li role="presentation"><a href="gestionprod">Liste des produits</a></li>
 				</ul>
 				</div>
 			</div>
@@ -35,5 +35,7 @@
 				header('admin');
   				exit();
 	}
-
+	mysqli_close($idconn);
 ?>
+</div>
+

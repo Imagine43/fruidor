@@ -84,3 +84,14 @@
     display: block;
     margin-top: 10px;
 }
+.tablegestioncli
+{ 
+    border-spacing: 10px;
+    border-collapse: separate;
+    border : 1px solid black;
+}
+.bordures
+{
+	
+    border : 1px solid black;
+}
